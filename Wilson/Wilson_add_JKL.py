@@ -146,7 +146,6 @@ with torch.no_grad():
         output_list.append(output.item())
 
 public_numeric_df['pred_price'] = output_list
-#public_numeric_df.to_csv(r'G:/我的雲端硬碟/from NYCU address/For python/t-brain/save/{}.csv'.format(now_str),encoding='big5')
 
 
 # %%
